@@ -1,0 +1,22 @@
+RUTA SELLER – HERRAMIENTAS | PUBLICAR EN GITHUB PAGES
+
+1. Extrae el ZIP en tu computador.
+2. En GitHub.com, crea un repositorio PUBLICO, por ejemplo: ruta-seller-herramientas.
+3. En el repositorio, elige Add file > Upload files.
+4. Sube el CONTENIDO de esta carpeta (index.html, .nojekyll, rentabilidad/, publicidad/).
+   No subas el archivo .zip sin extraer.
+5. Haz commit de los archivos.
+6. En Settings > Pages > Build and deployment:
+   Source: Deploy from a branch
+   Branch: main
+   Folder: /(root)
+   Save.
+7. Tu web será: https://TU-USUARIO.github.io/ruta-seller-herramientas/
+8. Haz clic en cada calculadora y prueba cambios de valores.
+
+PARA AGREGAR OTRA CALCULADORA:
+- Crea una carpeta, por ejemplo inventario/, con su archivo index.html.
+- Súbela al mismo repositorio.
+- Añade en el index.html principal un enlace a ./inventario/
+
+Nota: las páginas en GitHub Pages son públicas. No incluyas datos privados.
