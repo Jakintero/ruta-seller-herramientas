@@ -1,0 +1,18 @@
+RUTA SELLER – ACTUALIZACION DE LOGO AZUL EN WHATSAPP Y FAVICON
+
+1. Extrae los archivos del ZIP.
+2. En GitHub, abre jakintero/ruta-seller-herramientas.
+3. Sube TODOS los archivos extraidos directamente en la RAIZ del repositorio.
+   Reemplaza index.html, rentabilidad.html y publicidad.html.
+   Es fundamental que las imágenes PNG y favicon.ico estén junto a los HTML.
+4. Settings > Pages debe seguir en main / (root).
+5. Verifica en el navegador:
+   https://jakintero.github.io/ruta-seller-herramientas/vista-previa-seller-azul-v3.png
+   https://jakintero.github.io/ruta-seller-herramientas/favicon-seller-azul-v3.png
+6. Comparte https://jakintero.github.io/ruta-seller-herramientas/?v=3
+   WhatsApp puede conservar la imagen anterior en caché; probar un enlace con
+   query ?v=3 ayuda, pero no garantiza cuándo se actualiza en todos los clientes.
+
+Los tres HTML utilizan el MISMO logo entregado por el usuario para og:image.
+El logo que ya aparecía DENTRO de la calculadora no se ha cambiado.
+Las fórmulas y scripts de las calculadoras se conservan sin modificaciones.
