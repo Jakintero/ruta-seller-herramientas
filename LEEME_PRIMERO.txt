@@ -1,0 +1,26 @@
+RUTA SELLER — VERSIÓN OFICIAL PREPARADA (NO PUBLICADA)
+
+IMPORTANTE: Primero ejecutar la auditoría de SOLO LECTURA del paquete
+'RutaSeller_Verificacion_Antes_De_Publicar.zip' en el proyecto ruta-seller-piloto.
+Si hay cualquier resultado REVISAR, NO publicar todavía.
+
+ESTE ZIP:
+Contiene los 17 archivos de la versión central con el flujo de tareas de
+TRES ESTADOS ya probado en piloto: Borrador, Entregada, Aprobada.
+Las calculadoras de rentabilidad y PPC conservan sus fórmulas.
+
+SUBIDA A GITHUB:
+1. Respaldar el repositorio ruta-seller-herramientas (Code -> Download ZIP).
+2. Descomprimir este paquete y subir sus archivos a la raíz del repositorio.
+3. Copiar desde el piloto el archivo supabase-config.js con URL y clave
+   PUBLICABLE del mismo Supabase. No está incluido en este paquete.
+4. Confirmar Commit changes y verificar funcionamiento con cuentas de prueba.
+5. Añadir URL oficial a las Redirect URLs de Supabase Auth.
+6. Si algo falla, revertir el commit. No eliminar el proyecto Supabase.
+
+Estas son páginas HTML estáticas alojadas en GitHub Pages. La barrera
+visual de acceso no vuelve privados los archivos HTML. La protección de
+cuentas, tareas y fotos depende de Supabase RLS y Storage.
+
+Consulta la guía completa LEEME_PRIMERO_PUBLICACION.md en el ZIP
+de verificación. No ejecutar otra vez el antiguo supabase-setup.sql.
